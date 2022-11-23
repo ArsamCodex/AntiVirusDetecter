@@ -47,6 +47,7 @@ class Program
                 {
                     smtp.Credentials = new NetworkCredential("YOUREMAIL", "YOUR_GENERATEDPASS");
                     smtp.EnableSsl = true;
+
                     smtp.Send(mail);
                 }
 
